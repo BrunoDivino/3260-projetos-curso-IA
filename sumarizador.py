@@ -7,14 +7,9 @@ load_dotenv()
 openai.api_key = os.getenv('OPEN_AI_API_KEY')
 
 system_msg = '''
-Você é um sumarizador de textos. Você vai receber um feedback de um
-consumidor a respeito de um produto e definir qual o perfil desse
-consumidor. 
-
-O formato de retorno deverá ser um texto curto resumindo
-três pontos: Nível de satisfação do consumidor; probabilidade de 
-realizar mais compras; Tipos de produtos que podem interessar o 
-consumidor.
+    Você é um resumidor de textos. Você irá receber como entrada uma texto.
+    O seu retorno deverá ser em formato de texto e deverá ser um resumo do 
+    texto dado como entrada.
 '''
 
 message = input("Informe o texto: ")
