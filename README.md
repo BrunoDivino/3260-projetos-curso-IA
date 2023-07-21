@@ -13,6 +13,7 @@ git clone https://github.com/BrunoDivino/3260-projetos-curso-IA.git
 ```
 
 2. Crie um Ambinete Virtual em Python
+
 No Linux:
 ```
 python3 -m venv .venv
@@ -24,6 +25,7 @@ python -m venv .venv
 ```
 
 3. Ative o ambiente virtual
+
 No Linux:
 ```
 source .venv/bin/activate
